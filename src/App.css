@@ -1,18 +1,40 @@
+
+
 body{
-  background-color:#ebe4db;
+  background-color:#ffdcaf;
 }
 
 .purple-nav {
-  background-color:#8f587c;
+  background-color:#7D4A95;
   margin-bottom:25px;
 }
+
+.purple{
+  background-color:#7D4A95;
+}
+
+.yellow-font{
+  color:#FEB937;
+}
+
 .brand-name {
   font-family: 'Abril Fatface', cursive;
   font-size:2em;
+  color:white;
+  text-shadow:
+  -0.5px -0.5px 0 #000,  
+  0.5px -0.5px 0 #000,
+   -0.5px 0.5px 0 #000,
+   0.5px 0.5px 0 #000;
 }
 
 .nav-item {
   font-family: 'Open Sans', sans-serif;
+  color:white;
+}
+
+.nav-item:hover, brand-name:hover{
+  color:#FEB937;
 }
 
 .main-logo {
@@ -21,17 +43,14 @@ body{
 }
 
 .login-form {
-  background-image: url('/src/images/form-background.png');
+  background-image: url('/src/images/alt-form-bg.png');
   background-repeat: no-repeat;
   background-size:cover;
   border-radius:10px;
   height:100%;
-  -webkit-box-shadow: 15px 20px 18px 8px rgba(161,124,107,1);
-  -moz-box-shadow: 15px 20px 18px 8px rgba(161,124,107,1);
-  box-shadow: 15px 20px 18px 8px rgba(161,124,107,1);
   width:90%;
   margin:auto;
-  border: 0.5px solid black;
+  border: 1px solid rgb(123, 163, 177);
 }
 
 .form-header {
@@ -52,19 +71,23 @@ body{
 }
 
 .form-label{
-  margin-left:20px;
+  
   margin-top:10px;
   font-weight:bold;
-  color:#a8a3a6;
+  color:#504c4e;
   font-family: 'Open Sans', sans-serif;
   font-size:1rem;
+}
+
+.left-margin{
+  margin-left:40px;
 }
 
 
 .no-border{
   outline: 0;
   border-width: 0 0 2px;
-  border-color: #8f587c;
+  border-color: #7D4A95;
   border-radius:0px;
   width:80%;
   margin:auto;
@@ -74,7 +97,7 @@ body{
 }
 
 .sign-in {
-  margin-left:20px;
+  margin-left:40px;
   margin-top:20px;
   font-family: 'Arial';
   font-size:1.5rem;
@@ -83,7 +106,7 @@ body{
 }
 
 .button-round {
-  background-color: #8f587c;
+  background-color: #7D4A95;
   color: white;
   border: none;
   padding: 5px;
@@ -91,6 +114,10 @@ body{
   height: 60px;
   width: 60px;
   border-radius: 50%;
+}
+
+.button-round:hover{
+  background-color: #2e1b37;
 }
 
 .bottom-form-text {
@@ -112,8 +139,121 @@ body{
 
 .no-border:focus
 {
-    border: 1px solid #8f587c;
-    box-shadow: 0 0 5px #8f587c;
+    border: 1px solid #7D4A95;
+    box-shadow: 0 0 5px #7D4A95;
     outline-offset: 0px;
     outline: none;
 }
+
+.hero{
+  background-image:url(../src/images/hero-transparent.jpg);
+  background-size:cover;
+  height: 500px;
+  background-position:center;
+}
+
+.hero-text{
+  font-size:4em;
+  font-family: 'Abril Fatface', cursive;
+  color:white;
+  text-shadow:
+  -1px -1px 0 #000,  
+  1px -1px 0 #000,
+   -1px 1px 0 #000,
+   1px 1px 0 #000;
+}
+
+.branded {
+  font-family: 'Abril Fatface', cursive;
+  color:white;
+  text-shadow:
+  -0.5px -0.5px 0 #000,  
+  0.5px -0.5px 0 #000,
+   -0.5px 0.5px 0 #000,
+   0.5px 0.5px 0 #000;
+}
+
+.branded-p{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.pink{
+  background-color:#FDB4EB;
+}
+
+.pink-button{
+  background-color:#f850ce;
+  border:#f850ce;
+  padding: 10px;
+  text-align:center;
+  border-radius:5px;
+  color:white;
+}
+
+.pink-button:hover{
+  background-color:#a51581;
+}
+
+.yellow-button{
+  background-color:#c58101;
+  border:#c58101;
+  padding: 10px;
+  text-align:center;
+  border-radius:5px;
+  color:white;
+}
+
+.yellow-button:hover{
+  background-color:#885903;
+}
+
+.yellow{
+  background-color:#FEB937;
+}
+
+.w-90{
+  width:95%;
+}
+
+.centered{
+  display:block;
+  margin:auto;
+}
+
+.brand-name:hover{
+  color:#FEB937;
+}
+
+.brand-name:clicked, .brand-name:visited, .brand-name:active {
+  color:#eee;
+}
+
+.max-height{
+  height:100vh;
+}
+
+.black{
+  font-family: 'Abril Fatface', cursive;
+  color:black;
+  text-shadow:
+  -0.5px -0.5px 0 #eee,  
+  0.5px -0.5px 0 #eee,
+   -0.5px 0.5px 0 #eee,
+   0.5px 0.5px 0 #eee;
+}
+
+.shadow{
+  box-shadow: 8px 15px 32px -14px rgba(0,0,0,0.73);
+-webkit-box-shadow: 8px 15px 32px -14px rgba(0,0,0,0.73);
+-moz-box-shadow: 8px 15px 32px -14px rgba(0,0,0,0.73);
+}
+
+.purple-text{
+  color: #7D4A95;
+  text-shadow:
+  -0.5px -0.5px 0 #eee,  
+  0.5px -0.5px 0 #eee,
+   -0.5px 0.5px 0 #eee,
+   0.5px 0.5px 0 #eee;
+}
+
